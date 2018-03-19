@@ -33,15 +33,15 @@ A C++ program to find the First and Follow of a given grammar
           
           1)
           FIRST TABLE:
-	  	A-> a b d g h ~ 
-	        B-> d g h ~ 
-	        C-> g ~ 
-	        D-> h ~ 
+	  		A-> a b d g h ~ 
+	       		B-> d g h ~ 
+	        	C-> g ~ 
+	        	D-> h ~ 
           FOLLOW TABLE: 
-	        A-> $ 
-	        B-> $ g h 
-	        C-> $ a g h 
-	        D-> $ b g h
+	        	A-> $ 
+	        	B-> $ g h 
+	        	C-> $ a g h 
+	        	D-> $ b g h
               
           Enter number of nonterminals: 6
           Enter the productions for NT A: 1 BCDEF
@@ -53,19 +53,19 @@ A C++ program to find the First and Follow of a given grammar
 
           2)
           FIRST TABLE: 
-	             A-> a b c 
-             	     B-> a ~ 
-             	     C-> b ~ 
-             	     D-> c 
-             	     E-> d ~ 
-             	     F-> e ~ 
+	             	A-> a b c 
+             	     	B-> a ~ 
+             	     	C-> b ~ 
+             	     	D-> c 
+             	     	E-> d ~ 
+             	     	F-> e ~ 
            FOLLOW TABLE: 
-	             A-> $ 
-	             B-> b c 
-	             C-> c 
-	             D-> $ d e 
-	             E-> $ e 
-	             F-> $ 
+	            	A-> $ 
+	             	B-> b c 
+	             	C-> c 
+	             	D-> $ d e 
+	             	E-> $ e 
+	             	F-> $ 
               
           Enter number of nonterminals: 5
           Enter the productions for NT A: 1 CB
@@ -76,17 +76,17 @@ A C++ program to find the First and Follow of a given grammar
          
          3)
          FIRST TABLE: 
-	            A-> ( i 
-	            B-> + ~ 
-	            C-> ( i 
-	            D-> * ~ 
-	            E-> ( i 
+	            	A-> ( i 
+	            	B-> + ~ 
+	            	C-> ( i 
+	            	D-> * ~ 
+	            	E-> ( i 
          FOLLOW TABLE: 
-	            A-> $ ) 
-	            B-> $ ) 
-	            C-> $ ) + 
-	            D-> $ ) + 
-	            E-> $ ) * + 
+	            	A-> $ ) 
+	            	B-> $ ) 
+	            	C-> $ ) + 
+	            	D-> $ ) + 
+	            	E-> $ ) * + 
 
           Enter number of nonterminals: 3
           Enter the productions for NT A: 2 Bb Cd
@@ -95,10 +95,10 @@ A C++ program to find the First and Follow of a given grammar
   
           4)
            FIRST TABLE: 
-	             A-> a b c d 
-	             B-> a ~ 
-	             C-> c ~ 
+	             	A-> a b c d 
+	             	B-> a ~ 
+	             	C-> c ~ 
            FOLLOW TABLE: 
-	             A-> $ 
-	             B-> b 
-		     C-> d 
+	             	A-> $ 
+	             	B-> b 
+		     	C-> d 
