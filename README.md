@@ -54,11 +54,11 @@ A C++ program to find the First and Follow of a given grammar
           2)
           FIRST TABLE: 
 	             A-> a b c 
-             	B-> a ~ 
-             	C-> b ~ 
-             	D-> c 
-             	E-> d ~ 
-             	F-> e ~ 
+             	     B-> a ~ 
+             	     C-> b ~ 
+             	     D-> c 
+             	     E-> d ~ 
+             	     F-> e ~ 
            FOLLOW TABLE: 
 	             A-> $ 
 	             B-> b c 
