@@ -32,16 +32,16 @@ A C++ program to find the First and Follow of a given grammar
           Enter the productions for NT D: 2 h ~
           
           1)
-          FIRST TABLE: 
-	             A-> a b d g h ~ 
-	             B-> d g h ~ 
-	             C-> g ~ 
-	             D-> h ~ 
+          FIRST TABLE:
+	  	A-> a b d g h ~ 
+	        B-> d g h ~ 
+	        C-> g ~ 
+	        D-> h ~ 
           FOLLOW TABLE: 
-	             A-> $ 
-	             B-> $ g h 
-	             C-> $ a g h 
-	             D-> $ b g h
+	        A-> $ 
+	        B-> $ g h 
+	        C-> $ a g h 
+	        D-> $ b g h
               
           Enter number of nonterminals: 6
           Enter the productions for NT A: 1 BCDEF
