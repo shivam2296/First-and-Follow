@@ -1,0 +1,5 @@
+4
+4 3 BDC DbC Ca 2 da CD 2 g ~ 2 h ~
+6 1 BCDEF 2 a ~ 2 b ~ 1 c 2 d ~ 2 e ~
+5 1 CB 2 +CB ~ 1 ED 2 *ED ~ 2 i (A)
+3 2 Bb Cd 2 aB ~ 2 cC ~
