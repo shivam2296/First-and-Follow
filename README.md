@@ -101,4 +101,4 @@ A C++ program to find the First and Follow of a given grammar
            FOLLOW TABLE: 
 	             A-> $ 
 	             B-> b 
-	C-> d 
+		     C-> d 
