@@ -1,0 +1,52 @@
+
+1)
+FIRST TABLE: 
+	A-> a b d g h ~ 
+	B-> d g h ~ 
+	C-> g ~ 
+	D-> h ~ 
+FOLLOW TABLE: 
+	A-> $ 
+	B-> $ g h 
+	C-> $ a g h 
+	D-> $ b g h 
+
+2)
+FIRST TABLE: 
+	A-> a b c 
+	B-> a ~ 
+	C-> b ~ 
+	D-> c 
+	E-> d ~ 
+	F-> e ~ 
+FOLLOW TABLE: 
+	A-> $ 
+	B-> b c 
+	C-> c 
+	D-> $ d e 
+	E-> $ e 
+	F-> $ 
+
+3)
+FIRST TABLE: 
+	A-> ( i 
+	B-> + ~ 
+	C-> ( i 
+	D-> * ~ 
+	E-> ( i 
+FOLLOW TABLE: 
+	A-> $ ) 
+	B-> $ ) 
+	C-> $ ) + 
+	D-> $ ) + 
+	E-> $ ) * + 
+
+4)
+FIRST TABLE: 
+	A-> a b c d 
+	B-> a ~ 
+	C-> c ~ 
+FOLLOW TABLE: 
+	A-> $ 
+	B-> b 
+	C-> d 
